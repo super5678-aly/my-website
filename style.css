@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hotpink; /* Hot pink background */
+  color: darkred; /* Text color */
+  text-align: center;
+  border: 5px solid darkred; /* Dark red border around the whole page */
+  box-sizing: border-box; /* Ensures the border doesn't affect the layout */
+}
+
+header {
+  background-color: darkred; /* Dark red background */
+  padding: 20px;
+  color: white; /* White text for header */
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+select, label, input {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+select {
+  border: 2px solid darkred;
+  color: black;
+  background-color: #ffe6e6;
+  padding: 10px;
+}
+
+select:focus {
+  outline: none;
+  border-color: darkred;
+  box-shadow: 0 0 5px darkred;
+}
+
+.output, .motivation-output {
+  margin-top: 20px;
+}
+
+.highlight {
+  font-size: 20px;
+  color: darkred;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 2px solid darkred;
+}
+
+.motivation-box {
+  margin-top: 50px;
+  background-color: #ffe6e6;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid darkred;
+  display: inline-block;
+}
+
+#motivationSection {
+  margin-top: 100px;
+}
+
+#studySection {
+  margin-top: 50px;
+}
+
+#studySection h2 {
+  color: darkred;
+}
+
+.study-option label {
+  display: inline-block;
+  margin: 10px;
+  color: black;
+}
+
+/* Button styling */
+button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+/* Input field styling */
+input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid darkred;
+  width: 80%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: red;
+  box-shadow: 0 0 5px red;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  
+  h1, h2 {
+    font-size: 20px;
+  }
+  
+  .highlight {
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  select, input[type="text"], button {
+    width: 100%;
+    padding: 8px;
+  }
+}
